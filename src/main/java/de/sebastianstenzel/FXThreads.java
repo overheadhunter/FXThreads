@@ -116,9 +116,6 @@ public final class FXThreads {
 	 * @param successCallback The action to perform, when the task finished.
 	 */
 	public static <T> void runOnMainThreadWhenFinished(Future<T> task, CallbackWhenTaskFinished<T> successCallback) {
-		runOnBackgroundThread(() -> {
-			return "asd";
-		});
 		FXThreads.runOnMainThreadWhenFinished(task, successCallback, DUMMY_EXCEPTION_CALLBACK);
 	}
 
