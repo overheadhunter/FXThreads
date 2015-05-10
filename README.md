@@ -29,5 +29,22 @@ runOnMainThreadWhenFinished(futureBookName, (bookName) -> {
 });
 ```
 
+## Usage
+
+FXThreads is available via (JitPack)[https://jitpack.io/#totalvoidness/FXThreads/1.0]:
+
+``` xml
+<repository>
+  <id>jitpack.io</id>
+  <url>https://jitpack.io</url>
+</repository>
+<!-- ... -->
+<dependency>
+  <groupId>com.github.totalvoidness</groupId>
+  <artifactId>FXThreads</artifactId>
+  <version>1.0</version>
+</dependency>
+```
+
 ## License
 Distributed under the MIT license. See the LICENSE file for more info.
