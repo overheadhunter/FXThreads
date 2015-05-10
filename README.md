@@ -31,7 +31,7 @@ runOnMainThreadWhenFinished(futureBookName, (bookName) -> {
 
 ## Usage
 
-FXThreads is available via (JitPack)[https://jitpack.io/#totalvoidness/FXThreads/1.0]:
+FXThreads is available via [JitPack](https://jitpack.io/#totalvoidness/FXThreads/1.0):
 
 ``` xml
 <repository>
